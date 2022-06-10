@@ -6,13 +6,17 @@
 
 
 body{
-    background-image: url(./image/images.jpg);
-    background-size: cover;
-    background-repeat: repeat;
-    background-attachment: scroll;
+    height: 100vh; 
+    width: 100%;
+    background-image: url(./image/stock-photo-flat-composition-of-laptop-and.jpg) ;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
     
     
-   
+    
+
+    
 
 }
 .container{
@@ -20,26 +24,56 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+margin: 10rem auto auto auto;
+border: 1px solid black;
+width: 70%;
+background-color: rgba(4, 122, 133, 0.5);
+color: white;
+
+}
+h1{
+    margin-top: 2rem;
 }
 
 .tasks{
-    border: 2px solid gray;
+    width: 100%;
     padding: 4px;
+    margin-top: 3rem;
 }
-
+form{
+    margin-top: 3rem;
+    width: 100%;
+    padding: 0.5rem;
+}
 .task{
     display: flex;
-    padding: 20px;
+    padding: 10px;
     border: 2px solid pink;
     margin-top: 2rem;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
-    width: 500px;
+    width: 100%;
     background-color: white;
+    color: black;
     
+}
+h2{
+    text-align: center;
+}
+.todo-checkbox{
+ 
 }
 
 .todo-checkbox:checked ~ .para{
     text-decoration: line-through;
     color: gray;
+}
+
+.inputarea{
+    width: 85%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 2rem;
 }
