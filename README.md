@@ -4,7 +4,7 @@
 ### I used;
   - <b>HTML</b>
   - <b>CSS</b>
-  - <b>Vanilla JS</b>
+  - <b>Vanilla JS </b>
 
 
 
